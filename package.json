@@ -1,0 +1,17 @@
+{
+  "name": "lireddit_server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^16.7.6",
+    "ts-node": "^10.2.1",
+    "typescript": "^4.4.2"
+  }
+}
