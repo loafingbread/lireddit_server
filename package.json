@@ -26,9 +26,11 @@
     "@mikro-orm/migrations": "^4.5.9",
     "@mikro-orm/postgresql": "^4.5.9",
     "apollo-server-express": "^3.5.0",
+    "class-validator": "^0.13.1",
     "express": "^4.17.1",
     "graphql": "^15.7.2",
     "pg": "^8.7.1",
+    "reflect-metadata": "^0.1.13",
     "type-graphql": "^1.1.1"
   },
   "mikro-orm": {
@@ -37,5 +39,13 @@
       "./src/mikro-orm.config.ts",
       "./dist/mikro-orm.config.js"
     ]
-  }
+  },
+  "ts-node": {
+    "require": [
+      "tsconfig-paths/register"
+    ]
+  },
+  "_moduleDirectories": [
+    "src"
+  ]
 }
